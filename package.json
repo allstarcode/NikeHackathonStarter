@@ -1,0 +1,21 @@
+{
+  "name": "nikehackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "lint": "eslint code-challenges.js test/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  },
+  "engines": {
+    "node": ">=16.3.0"
+  }
+}
